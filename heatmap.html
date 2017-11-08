@@ -27,9 +27,9 @@
   var width = 750 - margin.right - margin.left,
       height = 300 - margin.top - margin.bottom;
 
-  d3.csv('heatmap_data.csv', function ( response ) {
+  d3.csv('heatmap_data.csv', function ( response1 ) {
 
-    var data = response.map(function( item ) {
+    var data = response1.map(function( item ) {
         var newItem = {};
         newItem.x = item.x;
         newItem.y = item.y;
@@ -99,9 +99,9 @@
   var width = 750 - margin.right - margin.left,
       height = 300 - margin.top - margin.bottom;
 
-  d3.csv('heatmap_data.csv', function ( response ) {
+  d3.csv('heatmap_data.csv', function ( response2 ) {
 
-    var data = response.map(function( item ) {
+    var data = response2.map(function( item ) {
         var newItem = {};
         newItem.x = item.x;
         newItem.y = item.y;
@@ -171,9 +171,9 @@
   var width = 750 - margin.right - margin.left,
       height = 300 - margin.top - margin.bottom;
 
-  d3.csv('heatmap_data.csv', function ( response ) {
+  d3.csv('heatmap_data.csv', function ( response3 ) {
 
-    var data = response.map(function( item ) {
+    var data = response3.map(function( item ) {
         var newItem = {};
         newItem.x = item.x;
         newItem.y = item.y;
