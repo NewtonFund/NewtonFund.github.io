@@ -30,8 +30,8 @@
 
     var data = response.map(function( item ) {
         var newItem = {};
-        newItem.country = item.x;
-        newItem.product = item.y;
+        newItem.x = item.x;
+        newItem.y = item.y;
         newItem.value = item.value;
 
         return newItem;
